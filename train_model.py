@@ -4,6 +4,7 @@ from sklearn.linear_model import LinearRegression
 
 
 # add another comment
+# new comment again
 def train_model():
     # dummy dataset
     X = pd.DataFrame({"feature1": [1, 2, 3, 4, 5]})
