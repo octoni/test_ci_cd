@@ -17,7 +17,7 @@ def train_model():
     # produce output dataframe
     predictions = model.predict(X)
     result = pd.DataFrame({
-        "feature1": X["feature1"],
+        #"feature1": X["feature1"],
         "prediction": predictions
     })
     return result
