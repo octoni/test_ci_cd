@@ -2,6 +2,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+# just add comment here
 def train_model():
     # dummy dataset
     X = pd.DataFrame({"feature1": [1, 2, 3, 4, 5]})
